@@ -1,0 +1,12 @@
+C:\Users\Diyar\source\repos\sqltut\sqltut\bin\Debug\sqltut.exe
+C:\Users\Diyar\source\repos\sqltut\sqltut\bin\Debug\sqltut.pdb
+C:\Users\Diyar\source\repos\sqltut\sqltut\bin\Debug\sqltut.xml
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.vbprojAssemblyReference.cache
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.Form1.resources
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.Inventory.resources
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.Resources.resources
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.vbproj.GenerateResource.cache
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.vbproj.CoreCompileInputs.cache
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.exe
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.xml
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.pdb
