@@ -4,7 +4,7 @@
 
 
 Public Class SQLControll
-    Private DbCon As New SqlConnection("Server=localDb\demoDB;Database=SQLTutorial;User=demoUser;Pwd=Password1;")
+    Private DbCon As New SqlConnection("Server=(localDb)\demoDB;Database=SQLTutorial;Trusted_Connection=True;")
     Private DBCmd As SqlCommand
 
     'DB DATA
