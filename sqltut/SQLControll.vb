@@ -28,7 +28,7 @@ Public Class SQLControll
     End Sub
 
     ' EXECUTE QUERY SUB
-    Public Sub ExecQuery(Query As String)
+    Public Sub ExecQuery(Query As String, Optional ReturnIdentity As Boolean = False)
         ' RESET QUERY STAT
         RecordCont = 0
         Exception = ""
@@ -50,6 +50,14 @@ Public Class SQLControll
             DBDA = New SqlDataAdapter(DBCmd)
 
             RecordCont = DBDA.Fill(DBDT)
+
+            If ReturnIdentity = True Then
+                Dim ReturnQuery As String = "SELECT @@IDENTITY As LastID;"
+                DBCmd = New SqlCommand(ReturnQuery, DbCon)
+                DBDT = New DataTable
+                DBDA = New SqlDataAdapter(DBCmd)
+                RecordCont = DBDA.Fill(DBDT)
+            End If
 
         Catch ex As Exception
             ' CATCH ERROR

@@ -10,3 +10,4 @@ C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.vbproj.CoreCompileInp
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.exe
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.xml
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.pdb
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.NewUser.resources
