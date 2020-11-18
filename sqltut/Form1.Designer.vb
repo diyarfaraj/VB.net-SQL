@@ -33,7 +33,7 @@ Partial Class Form1
         Me.msMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.miinventory})
         Me.msMain.Location = New System.Drawing.Point(0, 0)
         Me.msMain.Name = "msMain"
-        Me.msMain.Size = New System.Drawing.Size(800, 33)
+        Me.msMain.Size = New System.Drawing.Size(1331, 33)
         Me.msMain.TabIndex = 1
         Me.msMain.Text = "MenuStrip1"
         '
@@ -47,7 +47,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1331, 512)
         Me.Controls.Add(Me.msMain)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.msMain

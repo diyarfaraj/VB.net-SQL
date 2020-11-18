@@ -58,7 +58,7 @@ Partial Class Inventory
         Me.dgvData.Name = "dgvData"
         Me.dgvData.ReadOnly = True
         Me.dgvData.RowTemplate.Height = 28
-        Me.dgvData.Size = New System.Drawing.Size(693, 317)
+        Me.dgvData.Size = New System.Drawing.Size(1058, 434)
         Me.dgvData.TabIndex = 2
         '
         'cbxItems
@@ -74,7 +74,7 @@ Partial Class Inventory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1165, 567)
         Me.Controls.Add(Me.cbxItems)
         Me.Controls.Add(Me.dgvData)
         Me.Controls.Add(Me.txtSearch)
