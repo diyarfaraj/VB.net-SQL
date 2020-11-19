@@ -11,3 +11,5 @@ C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.exe
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.xml
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.pdb
 C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.NewUser.resources
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.EditUser.resources
+C:\Users\Diyar\source\repos\sqltut\sqltut\obj\Debug\sqltut.DeleteUser.resources

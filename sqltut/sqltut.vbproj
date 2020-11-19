@@ -70,6 +70,18 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeleteUser.Designer.vb">
+      <DependentUpon>DeleteUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUser.Designer.vb">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +119,12 @@
     <Compile Include="SQLControll.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DeleteUser.resx">
+      <DependentUpon>DeleteUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUser.resx">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

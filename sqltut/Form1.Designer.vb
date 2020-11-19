@@ -25,11 +25,11 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Me.msMain = New System.Windows.Forms.MenuStrip()
         Me.miinventory = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ManageUsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.msiNewUser = New System.Windows.Forms.ToolStripMenuItem()
         Me.msiDeleteUser = New System.Windows.Forms.ToolStripMenuItem()
         Me.msiEditUser = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.msMain.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,7 +39,7 @@ Partial Class Form1
         Me.msMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.miinventory, Me.ManageUsersToolStripMenuItem})
         Me.msMain.Location = New System.Drawing.Point(0, 0)
         Me.msMain.Name = "msMain"
-        Me.msMain.Size = New System.Drawing.Size(1331, 33)
+        Me.msMain.Size = New System.Drawing.Size(1480, 33)
         Me.msMain.TabIndex = 1
         Me.msMain.Text = "MenuStrip1"
         '
@@ -48,12 +48,6 @@ Partial Class Form1
         Me.miinventory.Name = "miinventory"
         Me.miinventory.Size = New System.Drawing.Size(99, 29)
         Me.miinventory.Text = "Inventory"
-        '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
         'ManageUsersToolStripMenuItem
         '
@@ -80,11 +74,17 @@ Partial Class Form1
         Me.msiEditUser.Size = New System.Drawing.Size(252, 30)
         Me.msiEditUser.Text = "Edit User"
         '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1331, 512)
+        Me.ClientSize = New System.Drawing.Size(1480, 710)
         Me.Controls.Add(Me.msMain)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.msMain
